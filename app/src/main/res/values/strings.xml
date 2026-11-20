@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JsMusic</string>
+
+    <string name="tab_home">Главная</string>
+    <string name="tab_library">Библиотека</string>
+    <string name="tab_playlists">Плейлисты</string>
+    <string name="tab_settings">Настройки</string>
+
+    <string name="home_empty_title">Здесь появится ваша музыка</string>
+    <string name="home_empty_hint">Недавно прослушанное и плейлисты будут показаны после добавления музыки.</string>
+
+    <string name="library_title">Библиотека</string>
+    <string name="library_empty_title">Библиотека пуста</string>
+    <string name="library_empty_hint">Просканируйте устройство или добавьте файлы и папки вручную. Поддерживаются MP3, M4A и WAV.</string>
+    <string name="library_unknown_artist">Неизвестный исполнитель</string>
+    <string name="library_rescan">Обновить библиотеку</string>
+    <string name="library_add">Добавить музыку</string>
+    <string name="library_add_files">Выбрать файлы</string>
+    <string name="library_add_folder">Выбрать папку</string>
+    <string name="library_scan_now">Сканировать устройство</string>
+    <string name="library_scanning">Идёт поиск музыки…</string>
+    <string name="library_permission_title">Нужен доступ к музыке</string>
+    <string name="library_permission_hint">Разрешите доступ, чтобы приложение нашло аудиофайлы на устройстве. Либо добавьте файлы вручную без разрешения.</string>
+    <string name="library_grant">Разрешить доступ</string>
+    <string name="library_open_settings">Открыть настройки приложения</string>
+    <string name="song_unavailable">Файл недоступен</string>
+
+    <string name="sync_nothing_new">Новых композиций не найдено</string>
+    <string name="sync_skipped">Пропущено неподдерживаемых файлов: %d</string>
+    <string name="sync_failed">Не удалось обновить библиотеку</string>
+    <plurals name="sync_added">
+        <item quantity="one">Добавлена %d композиция</item>
+        <item quantity="few">Добавлены %d композиции</item>
+        <item quantity="many">Добавлено %d композиций</item>
+        <item quantity="other">Добавлено %d композиции</item>
+    </plurals>
+    <plurals name="sync_unavailable">
+        <item quantity="one">Недоступен %d файл</item>
+        <item quantity="few">Недоступно %d файла</item>
+        <item quantity="many">Недоступно %d файлов</item>
+        <item quantity="other">Недоступно %d файла</item>
+    </plurals>
+
+    <string name="playlists_empty_title">Плейлистов пока нет</string>
+    <string name="playlists_empty_hint">Создайте плейлист и добавляйте в него песни из библиотеки.</string>
+
+    <string name="settings_theme_white">Цветовая тема (Белая)</string>
+    <string name="settings_theme_black">Цветовая тема (Чёрная)</string>
+    <string name="theme_orange">Бело-оранжевая</string>
+    <string name="theme_green">Бело-зелёная</string>
+    <string name="theme_blue">Бело-голубая</string>
+    <string name="theme_red">Бело-красная</string>
+    <string name="theme_purple">Бело-фиолетовая</string>
+    <string name="theme_pink">Бело-розовая</string>
+    <string name="theme_black_white">Чёрно-белая</string>
+    <string name="theme_black_orange">Чёрно-оранжевая</string>
+    <string name="theme_black_green">Чёрно-зелёная</string>
+    <string name="theme_black_blue">Чёрно-голубая</string>
+    <string name="theme_black_red">Чёрно-красная</string>
+    <string name="theme_black_purple">Чёрно-фиолетовая</string>
+    <string name="theme_black_pink">Чёрно-розовая</string>
+
+    <string name="player_close">Свернуть плеер</string>
+    <string name="player_stop">Закрыть плеер</string>
+    <string name="player_open">Открыть плеер</string>
+    <string name="player_play">Воспроизвести</string>
+    <string name="player_pause">Пауза</string>
+    <string name="player_next">Следующая песня</string>
+    <string name="player_previous">Предыдущая песня</string>
+    <string name="player_repeat_off">Повтор выключен</string>
+    <string name="player_repeat_all">Повтор всего списка</string>
+    <string name="player_repeat_one">Повтор одной песни</string>
+
+    <string name="playlists_title">Плейлисты</string>
+    <string name="playlist_create">Создать плейлист</string>
+    <string name="playlist_name_hint">Название</string>
+    <string name="playlist_rename">Переименовать</string>
+    <string name="playlist_cover">Обложка</string>
+    <string name="playlist_cover_title">Обложка плейлиста</string>
+    <string name="playlist_cover_gallery">Выбрать из галереи</string>
+    <string name="playlist_cover_auto">Автоматическая (из обложек песен)</string>
+    <string name="playlist_add_songs">Добавить песни</string>
+    <string name="playlist_add_songs_count">Добавить (%d)</string>
+    <string name="playlist_add_songs_none">Все песни библиотеки уже в этом плейлисте.</string>
+    <string name="playlist_delete">Удалить плейлист</string>
+    <string name="playlist_delete_confirm">Удалить плейлист «%s»? Аудиофайлы на устройстве не будут удалены.</string>
+    <string name="playlist_empty">В плейлисте пока нет песен</string>
+    <string name="playlist_edit">Изменить порядок и состав</string>
+    <string name="playlist_edit_done">Готово</string>
+    <string name="playlist_drag">Перетащить, чтобы изменить порядок</string>
+    <string name="playlist_remove">Убрать из плейлиста</string>
+    <string name="common_done">Готово</string>
+    <string name="common_cancel">Отмена</string>
+    <string name="common_save">Сохранить</string>
+    <string name="common_create">Создать</string>
+    <string name="common_delete">Удалить</string>
+    <string name="common_back">Назад</string>
+    <string name="common_more">Ещё</string>
+    <string name="add_to_playlist_title">Добавить в плейлист</string>
+    <string name="add_to_playlist_none">Плейлистов пока нет. Создайте первый.</string>
+    <string name="add_to_playlist_button">В плейлист</string>
+    <plurals name="playlist_songs_count">
+        <item quantity="one">%d песня</item>
+        <item quantity="few">%d песни</item>
+        <item quantity="many">%d песен</item>
+        <item quantity="other">%d песни</item>
+    </plurals>
+
+    <string name="search_hint_songs">Поиск песен</string>
+    <string name="search_hint_playlists">Поиск плейлистов</string>
+    <string name="search_open">Поиск</string>
+    <string name="search_close">Закрыть поиск</string>
+    <string name="search_no_results">Ничего не найдено</string>
+
+    <string name="note_add">Добавить заметку</string>
+    <string name="note_edit">Изменить заметку</string>
+    <string name="note_delete">Удалить заметку</string>
+    <string name="note_hint">Заметка</string>
+    <string name="notification_channel_name">Воспроизведение музыки</string>
+</resources>
